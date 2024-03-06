@@ -1,0 +1,1045 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Odczytywanie nieprawidłowych danych z elementu „w”."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/MES/MES/jakobian.cpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 5,
+                  "endLine": 66,
+                  "endColumn": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "jakobian",
+                  "decoratedName": "?jakobian@@YAXAEAUElementUniversalny@@AEAUElements@@1HAEAUMacierzH@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 6,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Element „w” jest tablicą, liczba elementów: 5 (bajty: 200)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „k<n*n”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „i<4”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń tę pętlę (przyjmowane jest, że element „j<n*n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „i<4”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń tę pętlę (przyjmowane jest, że element „j<n*n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Kontynuuj tę pętlę (przyjmowane jest: „i<4”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „k<n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „k<2*n&&k>=n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „k<3*n&&k>=2*n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Pomiń to rozgałęzienie (przyjmowane jest, że element „k<4*n&&k>=3*n” ma wartość false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „i<4”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Wejdź do tej pętli (przyjmowane jest: „j<4”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/MES/MES/jakobian.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Nieprawidłowy odczyt z elementu „w[-1]” (czytelny zakres od 0 do 4)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/MES/MES/jakobian.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "65314127a9d83facf5666c563bd8dc92ddbd1714fe42d3faed2ce46dd491cbda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/mes/mes/obliczenia.h"
+          },
+          "hashes": {
+            "sha-256": "e49e8ef6770ed8f00470f078bf7cb7301a82309ff9565f3b307d72978b2b56e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/mes/mes/wczytywanie.h"
+          },
+          "hashes": {
+            "sha-256": "8615f7061d054da2400b0380d23e8a9a91c19ec36ea3cf4947a792a59d94a320"
+          }
+        }
+      ]
+    }
+  ]
+}
